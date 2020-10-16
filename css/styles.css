@@ -14,9 +14,18 @@ body {
   color: var(--main-color);
 }
 
+address {
+  font-style: normal;
+}
+
 .link {
   color: var(--title-color);
   text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.143;
 }
 
 .link:hover,
@@ -24,11 +33,17 @@ body {
   color: var(--accent-color);
 }
 
+.list {
+  list-style: none;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+  color: var(--title-color);
+  text-decoration: none;
 }
 
 .logo-part {
@@ -37,12 +52,26 @@ body {
 
 .btn {
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
+  text-align: center;
   background-color: var(--accent-color);
   color: var(--white);
+}
+
+.hero-btn {
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(33, 150, 243, 0.75);
+}
+
+.potfolio-btn {
+  font-weight: 500;
+  line-height: 1.625;
 }
 
 .title {
@@ -50,13 +79,20 @@ body {
   color: var(--title-color);
 }
 
+.hidden-title {
+  display: none;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
+}
+
+.section-hero {
+  text-align: center;
 }
 
 .section-title {
@@ -65,15 +101,53 @@ body {
   text-align: center;
 }
 
-.title-text {
+.skills-title {
   line-height: 1.143;
   text-transform: uppercase;
 }
 
-.hidden-title {
-  display: none;
+.skills-info {
+  line-height: 1.714;
 }
 
-.section-text {
-  line-height: 1.714;
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.works-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--main-color);
+}
+
+.dark-bg {
+  background-color: var(--dark-bg);
+}
+
+.dark-bg .title,
+.dark-bg .address-link,
+.dark-bg .logo {
+  color: var(--white);
+}
+
+.dark-bg .footer-link-color {
+  color: rgba(255, 255, 255, 0.6);
 }
