@@ -28,11 +28,13 @@ address {
   line-height: 1.143;
 }
 
-/* .link:hover,
+.link:hover,
 .link:focus,
+.dark-bg .link:hover,
+.dark-bg .link:focus,
 .current-page {
   color: var(--accent-color);
-} */
+}
 
 .list {
   list-style: none;
@@ -148,17 +150,11 @@ address {
 }
 
 .dark-bg .title,
-.dark-bg .address-link,
+.dark-bg .link,
 .dark-bg .logo {
   color: var(--white);
 }
 
 .dark-bg .footer-link-color {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.link:hover,
-.link:focus,
-.current-page {
-  color: var(--accent-color);
 }
