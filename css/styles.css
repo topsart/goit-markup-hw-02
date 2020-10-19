@@ -28,6 +28,10 @@ address {
   line-height: 1.143;
 }
 
+.header-contacts .header-link {
+  color: var(--main-color);
+}
+
 .link:hover,
 .link:focus,
 .dark-bg .link:hover,
